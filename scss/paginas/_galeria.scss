@@ -1,0 +1,15 @@
+.tituloGal {
+	background-color: blue;
+	width: 0;
+}
+
+.tituloDeco {
+	text-align: center;
+}
+
+div {
+	.fotos {
+		display: flex;
+		justify-content: flex-start;
+	}
+}

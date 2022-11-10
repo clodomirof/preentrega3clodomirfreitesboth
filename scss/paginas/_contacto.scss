@@ -1,0 +1,73 @@
+main {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 10% 0 10%;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        font-size: 1rem;
+        border-right: 2px solid black;
+
+        fieldset {
+            width: 100%;
+            padding: 100px;            
+
+            label {
+                font-size: 1rem;
+            }
+
+            .campo {
+                border: solid gray;
+                border-radius: 3px;
+                margin: 2%;
+            }
+
+            .comentario {
+                height: 10rem;
+                width: 20rem;
+                border: solid gray;
+                border-radius: 3px;
+            }
+        }
+
+
+
+    }
+}
+
+    .direccion {
+        width: 50%;
+        div{
+            h2 {    
+                text-decoration: none;
+                color: black;
+                background-color: rgb(129, 162, 137);
+                
+            }
+        
+        }
+    }
+
+
+/*.local {
+    background-color: #e6e3e3;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+
+
+h3 {
+    .local {
+        p {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}*/

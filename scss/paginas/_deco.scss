@@ -1,0 +1,48 @@
+main{
+    .container{
+        div{
+            div{
+                .iluminacion {
+                    width: 480px;
+                    height: 250px;
+                    border: 2px solid black;
+                    background-color: #667766;
+                }
+
+            }
+        }
+    }
+}
+
+div {
+    .grid-container {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-color: cornsilk;
+        flex-direction: row;
+        margin: t;
+        flex-flow: row wrap;
+    }
+}
+
+/*img {
+    
+}
+.local {
+	background-color: rgb(129, 162, 137);
+}
+
+
+.grid-container {
+	background-color: bisque;
+}
+img {
+	height: auto;
+	width: auto;
+	max-width: 200px;
+	max-height: 200px;
+}

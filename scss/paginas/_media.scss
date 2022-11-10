@@ -1,0 +1,154 @@
+@media screen and (max-width: 1024px) {
+    .inicio {
+        max-width: 600px;
+        margin: auto;
+        padding: auto;
+    }
+
+    .redondo {
+        width: 100rem;
+        height: 100rem;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+#menu,
+#menu-check {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    #menu-check:not(:checked)~nav {
+        display: none;
+    }
+
+    #menu-check:checked~nav {
+        display: block;
+    }
+
+    #menu {
+        display: block;
+        color: black;
+        background-color: grey;
+        font-size: 1.2em;
+        font-weight: bold;
+        border: 3px solid white;
+        border-radius: 0.3em;
+        position: absolute;
+        right: 0.5em;
+        top: 0.5em;
+    }
+
+    #menu:hover {
+        color: white;
+    }
+
+    #menu-cerrar {
+        display: none;
+    }
+
+    #menu-check:checked~label #menu-abrir {
+        display: none;
+    }
+
+    #menu-check:checked~label #menu-cerrar {
+        display: block;
+    }
+
+
+    header nav {
+        position: absolute;
+        top: 6rem;
+        right: 0;
+        height: 88vh;
+        width: 35vw;
+        background-color: rgba(0, 0, 0, 0.687);
+        border-radius: 10px;
+        color: white;
+        z-index: 9999;
+    }
+
+    header nav a {
+        color: gray;
+        font-size: 1.5rem;
+        margin: 2rem;
+        padding: rem;
+        line-height: 3rem;
+    }
+
+    header nav ul,
+    header nav ul li {
+        display: block;
+        text-align: right;
+        margin-top: 1.5rem;
+    }
+
+    body {
+        max-width: 768px;
+    }
+
+    .inicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenido {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .articulos {
+        width: 100%;
+        padding: 4%;
+        margin: 2%;
+        align-items: center;
+        border-right: none;
+    }
+
+    header div.contenedor,
+    header div.contenedor ul,
+    header div.contenedor ul li {
+        display: inline;
+    }
+
+    header div.contenedor nav {
+        width: 100%;
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .inicio {
+        max-width: 600px;
+        margin: auto;
+        padding: auto;
+    }
+
+    .redondo {
+        width: 100rem;
+        height: 100rem;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .iluminacion {
+        width: 150rem;
+        margin: 4px;
+    }
+
+    .contactohtml {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        form {
+            border-right: none;
+            margin-bottom: 2vh;
+        }
+
+    }
+
+}
