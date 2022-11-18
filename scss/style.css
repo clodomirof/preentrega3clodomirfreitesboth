@@ -83,7 +83,7 @@ nav li {
   padding-right: 2%;
 }
 nav li:hover {
-  background-color: black;
+  background-color: none;
 }
 nav a {
   text-decoration: none;
@@ -353,9 +353,9 @@ div .fotos {
   header nav {
     position: absolute;
     top: 6rem;
-    right: 0;
+    right: 4px;
     height: 88vh;
-    width: 35vw;
+    width: 50vw;
     background-color: rgba(0, 0, 0, 0.687);
     border-radius: 10px;
     color: white;
