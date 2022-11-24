@@ -1,42 +1,34 @@
+.mainDeco {
+  height: 90vh;
+}
+.mainDeco .container div div .iluminacion {
+  width: 250px;
+  height: 230px;
+  border: 2px solid black;
+  background-color: #667766;
+}
+
+div .grid-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: cornsilk;
+  flex-direction: row;
+  flex-flow: row wrap;
+}
+div .grid-container img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-img .redondo {
-  width: 150rem;
-  height: 150rem;
-  border-radius: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-div .contenido {
-  display: flex;
-  margin: 60px;
-}
-div .articulos {
-  width: 80%;
-  padding: 4%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-right: 3px solid black;
-}
-
-main .inicio {
-  background-color: #e6e3e3;
-  width: 100%;
-
-}
-.contenido {
-	display: flex;
-	flex-direction: row;
-	margin: 60px;
-	width: 100%;
-	
-	}
 
 body {
   width: 100%;
@@ -47,13 +39,33 @@ body {
 header {
   display: flex;
   width: 100%;
+  height: 25vh;
   background-color: gray;
+}
+header nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 header nav ul {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
   align-items: flex-end;
+}
+header nav ul li {
+  list-style-type: none;
+  text-align: center;
+  align-content: space-between;
+  margin: 1%;
+  border-right: solid 0.1rem black;
+  padding-right: 2%;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
 }
 
 h1 {
@@ -67,27 +79,30 @@ h1 a {
   color: white;
 }
 
-nav {
+.inicio {
+  background-color: #e6e3e3;
   width: 100%;
+}
+.inicio .contenido {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-end;
+  margin: 60px;
+  width: 100%;
 }
-nav li {
-  list-style-type: none;
-  text-align: center;
-  align-content: space-between;
-  margin: 1%;
-  border-right: solid 0.1rem black;
-  padding-right: 2%;
+.inicio .articulos {
+  width: 40%;
+  padding: 4%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-right: 3px solid black;
 }
-nav li:hover {
-  background-color: none;
-}
-nav a {
-  text-decoration: none;
-  color: black;
+.inicio .articulos .redondo {
+  width: 30vw;
+  height: 30vh;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 header div.contenedor {
@@ -146,13 +161,14 @@ h3 p {
   justify-content: right;
 }
 
-main {
+.contactohtml {
   width: 90%;
+  height: 80vh;
   display: flex;
   flex-direction: row;
   margin: 0 10% 0 10%;
 }
-main form {
+.contactohtml form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -160,22 +176,26 @@ main form {
   width: 50%;
   font-size: 1rem;
   border-right: 2px solid black;
+
 }
-main form fieldset {
+.contactohtml form fieldset {
   width: 100%;
   padding: 100px;
 }
-main form fieldset label {
+.contactohtml form fieldset div {
+  width: 90%;
+}
+.contactohtml form fieldset div label {
   font-size: 1rem;
 }
-main form fieldset .campo {
+.contactohtml form fieldset div .campo {
   border: solid gray;
   border-radius: 3px;
   margin: 2%;
 }
-main form fieldset .comentario {
+.contactohtml form fieldset div .comentario {
   height: 10rem;
-  width: 20rem;
+  width: 80%;
   border: solid gray;
   border-radius: 3px;
 }
@@ -206,100 +226,6 @@ h3 {
         }
     }
 }*/
-main .container div div .iluminacion {
-  width: 480px;
-  height: 250px;
-  border: 2px solid black;
-  background-color: #667766;
-}
-
-div .grid-container {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  background-color: cornsilk;
-  flex-direction: row;
-  margin: t;
-  flex-flow: row wrap;
-}
-
-.local {
-  background-color: rgb(129, 162, 137);
-}
-
-.grid-container {
-  background-color: bisque;
-}
-
-img {
-  height: auto;
-  width: auto;
-  max-width: 200px;
-  max-height: 200px;
-}
-
-h2 .tituloGal {
-  background-color: blue;
-  width: 0;
-}
-
-.tituloDeco {
-  text-align: center;
-}
-
-div .fotos {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.card {
-  background-color: #c0c0c0;
-  padding: 0;
-  margin: 30px;
-  width: 12.5rem;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-}
-
-.card__image {
-  height: 200px;
-}
-
-.btn {
-  background-color: rgb(143, 156, 149);
-  margin: 1px;
-  padding: 5px;
-  width: 100%;
-}
-
-.card__descrption {
-  margin: 2%;
-  -webkit-text-decoration-color: blue;
-          text-decoration-color: blue;
-}
-
-.card__section {
-  flex-direction: row;
-}
-
-.pie-pag {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  background-color: #eff0e9;
-}
-.pie-pag .bootstrapone {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
 @media screen and (max-width: 1024px) {
   .inicio {
     max-width: 600px;
@@ -307,8 +233,8 @@ div .fotos {
     padding: auto;
   }
   .redondo {
-    width: 100rem;
-    height: 100rem;
+    width: 50rem;
+    height: 50rem;
     border-radius: 50%;
     -o-object-fit: cover;
        object-fit: cover;
@@ -353,19 +279,17 @@ div .fotos {
   header nav {
     position: absolute;
     top: 6rem;
-    right: 4px;
-    height: 88vh;
-    width: 50vw;
+    right: 0;
+    height: 70vh;
+    width: 45vw;
     background-color: rgba(0, 0, 0, 0.687);
     border-radius: 10px;
     color: white;
     z-index: 9999;
   }
   header nav a {
-    color: gray;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 2rem;
-    padding: rem;
     line-height: 3rem;
   }
   header nav ul,
@@ -373,9 +297,7 @@ header nav ul li {
     display: block;
     text-align: right;
     margin-top: 1.5rem;
-  }
-  body {
-    max-width: 768px;
+    color: white;
   }
   .inicio {
     display: flex;
@@ -402,6 +324,9 @@ header div.contenedor ul li {
     width: 100%;
     display: inline;
   }
+  .mainDeco {
+    height: 450vh;
+  }
 }
 @media screen and (max-width: 480px) {
   .inicio {
@@ -424,10 +349,74 @@ header div.contenedor ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100%;
+    height: 150vh;
   }
   .contactohtml form {
     border-right: none;
     margin-bottom: 2vh;
+    width: 80%;
   }
+  .contactohtml form fieldset {
+    padding: 5px;
+  }
+  header nav a {
+    font-size: 0.9rem;
+    margin: 4px;
+  }
+}
+.tituloGal {
+  text-align: center;
+  width: 100%;
+}
+
+.tituloDeco {
+  text-align: center;
+}
+
+div .fotos {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card {
+  background-color: #c0c0c0;
+  padding: 0;
+  margin: 30px;
+  width: 12.5rem;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+.card .card__image {
+  height: 200px;
+}
+.card .btn {
+  background-color: rgb(143, 156, 149);
+  margin: 1px;
+  padding: 5px;
+  width: 100%;
+}
+.card .card__descrption {
+  margin: 2%;
+  -webkit-text-decoration-color: blue;
+          text-decoration-color: blue;
+}
+.card .card__section {
+  flex-direction: row;
+}
+
+.pie-pag {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  background-color: #eff0e9;
+}
+.pie-pag .bootstrapone {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }/*# sourceMappingURL=style.css.map */

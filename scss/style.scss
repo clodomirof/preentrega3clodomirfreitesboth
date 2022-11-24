@@ -1,12 +1,12 @@
-@import "./component/variables";
-@import "./component/reset";
-@import "./paginas/nav";
+@import "../scss/paginas/deco";
+@import "../scss/component/variables";
+@import "../scss/component/reset";
+@import "../scss/paginas/nav";
 @import "../scss/paginas/index";
-@import "./component/menuh";
-@import "./paginas/contacto";
-@import "./paginas/deco";
-@import "./paginas/galeria";
-@import "./paginas/trabajos";
-@import "./paginas/footer";
-@import "./paginas/media";
+@import "../scss/component/menuh";
+@import "../scss/paginas/contacto";
+@import "../scss/paginas/media";
+@import "../scss/paginas/galeria";
+@import "../scss/paginas/trabajos";
+@import "../scss/paginas/footer";
 

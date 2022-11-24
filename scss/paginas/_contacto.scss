@@ -1,5 +1,7 @@
-main {
+.contactohtml  {
+
     width: 90%;
+    height: 80vh;
     display: flex;
     flex-direction: row;
     margin: 0 10% 0 10%;
@@ -15,24 +17,28 @@ main {
 
         fieldset {
             width: 100%;
-            padding: 100px;            
+            padding: 100px;  
+            div{
+                width: 90%;
+                label {
+                    font-size: 1rem;
+                }
+    
+                .campo {
+                    border: solid gray;
+                    border-radius: 3px;
+                    margin: 2%;
+                }
+    
+                .comentario {
+                    height: 10rem;
+                    width: 80%;
+                    border: solid gray;
+                    border-radius: 3px;
+                    
+                }
+            }          
 
-            label {
-                font-size: 1rem;
-            }
-
-            .campo {
-                border: solid gray;
-                border-radius: 3px;
-                margin: 2%;
-            }
-
-            .comentario {
-                height: 10rem;
-                width: 20rem;
-                border: solid gray;
-                border-radius: 3px;
-            }
         }
 
 
