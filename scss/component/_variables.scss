@@ -2,8 +2,8 @@ $color: black;
 
  $mapa_de_colores:(
      $instagram: red,
-     $facebook: #3b5998,
-     $whatsapp: #25D366
+     $facebook:  #3b5998,
+     $whatsapp:  #25D366
  );
 
  @each $key, $color in $mapa_de_colores{

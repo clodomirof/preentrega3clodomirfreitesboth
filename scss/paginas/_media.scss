@@ -92,17 +92,21 @@
     }
 
     .contenido {
-        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
         width: 100%;
+        
+        .articulos {
+            width: 40%;
+            padding: 4%;
+            margin: 2%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-right: none;
+        }
     }
 
-    .articulos {
-        width: 100%;
-        padding: 4%;
-        margin: 2%;
-        align-items: center;
-        border-right: none;
-    }
 
     header div.contenedor,
     header div.contenedor ul,
@@ -127,8 +131,8 @@
     }
 
     .redondo {
-        width: 100rem;
-        height: 100rem;
+        width: 30vw;
+        height: 30vh;
         border-radius: 50%;
         object-fit: cover;
     }

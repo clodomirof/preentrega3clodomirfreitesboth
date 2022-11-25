@@ -5,24 +5,24 @@
 	.contenido {
 	display: flex;
 	flex-direction: row;
-	margin: 60px;
 	width: 100%;
 	
-	}
-
 	.articulos {
 		width: 40%;
 		padding: 4%;
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		border-right: 3px solid black;
 
 		.redondo {
-			width: 30vw;
-			height: 30vh;
+			width: 20vw;
+			height: 20vh;
 			border-radius: 50%;
 			object-fit: cover;
 		}
 	}
+	
+	}
+
 }
